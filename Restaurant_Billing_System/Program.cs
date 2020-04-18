@@ -16,7 +16,7 @@ namespace Restaurant_Billing_System
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new cheflogin());
+            Application.Run(new DisplayItems());
         }
     }
 }

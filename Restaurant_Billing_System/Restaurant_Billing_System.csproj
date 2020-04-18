@@ -67,20 +67,48 @@
     <Compile Include="AddItem.Designer.cs">
       <DependentUpon>AddItem.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill.Designer.cs">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </Compile>
     <Compile Include="cheflogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="cheflogin.Designer.cs">
       <DependentUpon>cheflogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="CustomerDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerDetails.Designer.cs">
+      <DependentUpon>CustomerDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisplayItems.Designer.cs">
+      <DependentUpon>DisplayItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="models\Customer.cs" />
     <Compile Include="models\FoodItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddItem.resx">
       <DependentUpon>AddItem.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Bill.resx">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="cheflogin.resx">
       <DependentUpon>cheflogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerDetails.resx">
+      <DependentUpon>CustomerDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplayItems.resx">
+      <DependentUpon>DisplayItems.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

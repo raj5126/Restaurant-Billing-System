@@ -33,7 +33,7 @@
             this.username = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.passwordfield = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.login = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -61,7 +61,7 @@
             // username
             // 
             this.username.Location = new System.Drawing.Point(161, 94);
-            this.username.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.username.Margin = new System.Windows.Forms.Padding(4);
             this.username.Name = "username";
             this.username.Size = new System.Drawing.Size(132, 22);
             this.username.TabIndex = 2;
@@ -79,21 +79,21 @@
             // passwordfield
             // 
             this.passwordfield.Location = new System.Drawing.Point(161, 159);
-            this.passwordfield.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.passwordfield.Margin = new System.Windows.Forms.Padding(4);
             this.passwordfield.Name = "passwordfield";
             this.passwordfield.Size = new System.Drawing.Size(132, 22);
             this.passwordfield.TabIndex = 5;
             // 
-            // button1
+            // login
             // 
-            this.button1.Location = new System.Drawing.Point(137, 214);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 28);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "LOGIN";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.login.Location = new System.Drawing.Point(137, 214);
+            this.login.Margin = new System.Windows.Forms.Padding(4);
+            this.login.Name = "login";
+            this.login.Size = new System.Drawing.Size(100, 28);
+            this.login.TabIndex = 6;
+            this.login.Text = "LOGIN";
+            this.login.UseVisualStyleBackColor = true;
+            this.login.Click += new System.EventHandler(this.button1_Click);
             // 
             // label4
             // 
@@ -111,13 +111,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(379, 322);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.login);
             this.Controls.Add(this.passwordfield);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.username);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "cheflogin";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.cheflogin_Load);
@@ -133,7 +133,7 @@
         private System.Windows.Forms.TextBox username;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox passwordfield;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button login;
         private System.Windows.Forms.Label label4;
     }
 }

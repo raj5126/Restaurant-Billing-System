@@ -1,4 +1,4 @@
-﻿using Restaurant_Billing_System.models;
+using Restaurant_Billing_System.models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,7 +20,7 @@ namespace Restaurant_Billing_System
             InitializeComponent();
         }
 
-        byte[] ConvertImagetoBinary(Image img)
+        byte[] ConvertImagetoBinary (Image img)
         {
             using (MemoryStream ms = new MemoryStream())
             {
@@ -31,6 +31,7 @@ namespace Restaurant_Billing_System
 
         private void AddItem_Load(object sender, EventArgs e)
         {
+            
             string query = "select * from FoodCategory";
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\Restaurant_Billing_System\Restaurant_Billing_System\restaurantdb.mdf;Integrated Security=True");
             SqlCommand cmd = new SqlCommand(query, con);
@@ -42,7 +43,7 @@ namespace Restaurant_Billing_System
         }
 
 
-        private void add_item_Click(object sender, EventArgs e)
+        private void add_item_Click(object sender, EventArgs e) 
         {
             FoodItem fi = new FoodItem();
             DataSet ds = new DataSet();
@@ -56,11 +57,12 @@ namespace Restaurant_Billing_System
                 DataRow r = ds.Tables[0].Rows[i];
                 fi.CategoryId = Convert.ToInt32(r.Field<int>(0));
             }
-            fi.ItemName = itemname.Text;
+            fi.ItemName = itemname.Text;    
             fi.Price = Convert.ToDouble(price.Text);
             fi.ItemDescription = description.Text;
-            fi.ItemImage = ConvertImagetoBinary(pictureBox1.Image);
+            fi.ItemImage =  ConvertImagetoBinary(pictureBox1.Image);
             Console.WriteLine(fi.CategoryId + fi.ItemName + fi.Price + fi.ItemDescription);
+            Console.WriteLine(fi.ItemImage);
             success.Text = FoodItem.AddNewItem(fi);
 
         }
