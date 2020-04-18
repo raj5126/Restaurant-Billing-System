@@ -1,6 +1,6 @@
 ﻿namespace Restaurant_Billing_System
 {
-    partial class cheflogin
+    partial class Cheflogin
     {
         /// <summary>
         /// Required designer variable.
@@ -51,10 +51,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(67, 97);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 17);
+            this.label2.Size = new System.Drawing.Size(70, 18);
             this.label2.TabIndex = 1;
             this.label2.Text = "User ID : ";
             // 
@@ -69,10 +70,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(67, 162);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 17);
+            this.label3.Size = new System.Drawing.Size(87, 18);
             this.label3.TabIndex = 3;
             this.label3.Text = "Password : ";
             // 
@@ -86,13 +88,16 @@
             // 
             // login
             // 
-            this.login.Location = new System.Drawing.Point(137, 214);
+            this.login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.login.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.login.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.login.Location = new System.Drawing.Point(131, 214);
             this.login.Margin = new System.Windows.Forms.Padding(4);
             this.login.Name = "login";
-            this.login.Size = new System.Drawing.Size(100, 28);
+            this.login.Size = new System.Drawing.Size(108, 38);
             this.login.TabIndex = 6;
             this.login.Text = "LOGIN";
-            this.login.UseVisualStyleBackColor = true;
+            this.login.UseVisualStyleBackColor = false;
             this.login.Click += new System.EventHandler(this.button1_Click);
             // 
             // label4
@@ -105,7 +110,7 @@
             this.label4.Size = new System.Drawing.Size(0, 17);
             this.label4.TabIndex = 7;
             // 
-            // cheflogin
+            // Cheflogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -118,7 +123,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "cheflogin";
+            this.Name = "Cheflogin";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.cheflogin_Load);
             this.ResumeLayout(false);

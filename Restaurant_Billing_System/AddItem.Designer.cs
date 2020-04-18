@@ -60,10 +60,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(57, 64);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(113, 17);
+            this.label2.Size = new System.Drawing.Size(119, 18);
             this.label2.TabIndex = 1;
             this.label2.Text = "Food Category : ";
             // 
@@ -77,16 +78,17 @@
             this.comboBox1.Location = new System.Drawing.Point(179, 60);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(132, 24);
+            this.comboBox1.Size = new System.Drawing.Size(200, 24);
             this.comboBox1.TabIndex = 2;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(61, 126);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 17);
+            this.label3.Size = new System.Drawing.Size(88, 18);
             this.label3.TabIndex = 3;
             this.label3.Text = "Item Name :";
             // 
@@ -95,16 +97,17 @@
             this.itemname.Location = new System.Drawing.Point(179, 126);
             this.itemname.Margin = new System.Windows.Forms.Padding(4);
             this.itemname.Name = "itemname";
-            this.itemname.Size = new System.Drawing.Size(132, 22);
+            this.itemname.Size = new System.Drawing.Size(200, 22);
             this.itemname.TabIndex = 4;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(61, 187);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 17);
+            this.label4.Size = new System.Drawing.Size(54, 18);
             this.label4.TabIndex = 5;
             this.label4.Text = "Price : ";
             // 
@@ -113,16 +116,17 @@
             this.price.Location = new System.Drawing.Point(179, 184);
             this.price.Margin = new System.Windows.Forms.Padding(4);
             this.price.Name = "price";
-            this.price.Size = new System.Drawing.Size(132, 22);
+            this.price.Size = new System.Drawing.Size(200, 22);
             this.price.TabIndex = 6;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(61, 241);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(91, 17);
+            this.label5.Size = new System.Drawing.Size(95, 18);
             this.label5.TabIndex = 7;
             this.label5.Text = "Description : ";
             // 
@@ -131,17 +135,19 @@
             this.description.Location = new System.Drawing.Point(179, 241);
             this.description.Multiline = true;
             this.description.Name = "description";
-            this.description.Size = new System.Drawing.Size(132, 77);
+            this.description.Size = new System.Drawing.Size(200, 105);
             this.description.TabIndex = 8;
             // 
             // add_item
             // 
-            this.add_item.Location = new System.Drawing.Point(126, 597);
+            this.add_item.BackColor = System.Drawing.Color.LightSalmon;
+            this.add_item.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.add_item.Location = new System.Drawing.Point(154, 595);
             this.add_item.Name = "add_item";
-            this.add_item.Size = new System.Drawing.Size(82, 34);
+            this.add_item.Size = new System.Drawing.Size(101, 39);
             this.add_item.TabIndex = 9;
             this.add_item.Text = "Add";
-            this.add_item.UseVisualStyleBackColor = true;
+            this.add_item.UseVisualStyleBackColor = false;
             this.add_item.Click += new System.EventHandler(this.add_item_Click);
             // 
             // success
@@ -155,18 +161,20 @@
             // img
             // 
             this.img.AutoSize = true;
+            this.img.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.img.Location = new System.Drawing.Point(61, 382);
             this.img.Name = "img";
-            this.img.Size = new System.Drawing.Size(54, 17);
+            this.img.Size = new System.Drawing.Size(56, 18);
             this.img.TabIndex = 11;
             this.img.Text = "Image :";
             // 
             // path
             // 
             this.path.AutoSize = true;
+            this.path.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.path.Location = new System.Drawing.Point(176, 382);
             this.path.Name = "path";
-            this.path.Size = new System.Drawing.Size(16, 17);
+            this.path.Size = new System.Drawing.Size(16, 18);
             this.path.TabIndex = 12;
             this.path.Text = "?";
             // 
@@ -181,19 +189,22 @@
             // 
             // choose
             // 
+            this.choose.BackColor = System.Drawing.SystemColors.Highlight;
+            this.choose.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.choose.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.choose.Location = new System.Drawing.Point(64, 431);
             this.choose.Name = "choose";
-            this.choose.Size = new System.Drawing.Size(75, 23);
+            this.choose.Size = new System.Drawing.Size(87, 32);
             this.choose.TabIndex = 14;
             this.choose.Text = "Browse..";
-            this.choose.UseVisualStyleBackColor = true;
+            this.choose.UseVisualStyleBackColor = false;
             this.choose.Click += new System.EventHandler(this.choose_Click);
             // 
             // AddItem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(379, 677);
+            this.ClientSize = new System.Drawing.Size(500, 677);
             this.Controls.Add(this.choose);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.path);

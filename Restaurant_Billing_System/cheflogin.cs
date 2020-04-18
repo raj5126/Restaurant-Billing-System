@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Restaurant_Billing_System
 {
-    public partial class cheflogin : Form
+    public partial class Cheflogin : Form
     {
-        public cheflogin()
+        public Cheflogin()
         {
             InitializeComponent();
             passwordfield.Text = "";
@@ -23,11 +23,16 @@ namespace Restaurant_Billing_System
 
         private void cheflogin_Load(object sender, EventArgs e)
         {
-
+            this.BackColor = Color.White;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (username.Text =="" || passwordfield.Text == ""){
+
+                MessageBox.Show("Please Enter Correct username or password");
+
+             }
             string user_id = username.Text;
             string password = passwordfield.Text;
             string query = "select * from Chef where Chef_Name=@user_id and Password=@password";
@@ -44,7 +49,7 @@ namespace Restaurant_Billing_System
             if (dt.Rows.Count > 0)
             {
                 MessageBox.Show("Login Success");
-                AddItem add = new AddItem();
+                Home add = new Home();
                 this.Hide();
                 add.Show();
             }

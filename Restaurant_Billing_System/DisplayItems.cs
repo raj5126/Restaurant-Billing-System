@@ -25,7 +25,7 @@ namespace Restaurant_Billing_System
 
         private void DisplayItems_Load(object sender, EventArgs e)
         {
-            //this.BackColor = Color.Black;
+            this.BackColor = Color.White;
 
             DataSet ds = new DataSet();
             DataSet pds = new DataSet();
@@ -49,9 +49,6 @@ namespace Restaurant_Billing_System
             int p = 0;
             int d = 0;
             int b = 0;
-
-
-            
 
             for (int i=0;i<ds.Tables[0].Rows.Count; i++)
             {

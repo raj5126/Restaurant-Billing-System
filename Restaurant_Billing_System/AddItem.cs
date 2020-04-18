@@ -31,7 +31,7 @@ namespace Restaurant_Billing_System
 
         private void AddItem_Load(object sender, EventArgs e)
         {
-            
+            this.BackColor = Color.White;
             string query = "select * from FoodCategory";
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\Restaurant_Billing_System\Restaurant_Billing_System\restaurantdb.mdf;Integrated Security=True");
             SqlCommand cmd = new SqlCommand(query, con);

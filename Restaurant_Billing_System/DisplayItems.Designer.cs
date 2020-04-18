@@ -45,12 +45,15 @@
             // 
             // totalbill
             // 
-            this.totalbill.Location = new System.Drawing.Point(98, 574);
+            this.totalbill.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.totalbill.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.totalbill.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalbill.Location = new System.Drawing.Point(98, 562);
             this.totalbill.Name = "totalbill";
-            this.totalbill.Size = new System.Drawing.Size(110, 44);
+            this.totalbill.Size = new System.Drawing.Size(134, 44);
             this.totalbill.TabIndex = 1;
             this.totalbill.Text = "Generate Bill";
-            this.totalbill.UseVisualStyleBackColor = true;
+            this.totalbill.UseVisualStyleBackColor = false;
             this.totalbill.Click += new System.EventHandler(this.totalbill_Click);
             // 
             // pricelabel

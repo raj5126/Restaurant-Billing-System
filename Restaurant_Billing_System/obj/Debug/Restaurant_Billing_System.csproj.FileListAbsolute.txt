@@ -25,3 +25,4 @@ E:\Restaurant_Billing_System\Restaurant_Billing_System\obj\Debug\Restaurant_Bill
 E:\Restaurant_Billing_System\Restaurant_Billing_System\obj\Debug\Restaurant_Billing_System.DisplayItems.resources
 E:\Restaurant_Billing_System\Restaurant_Billing_System\obj\Debug\Restaurant_Billing_System.CustomerDetails.resources
 E:\Restaurant_Billing_System\Restaurant_Billing_System\obj\Debug\Restaurant_Billing_System.Bill.resources
+E:\Restaurant_Billing_System\Restaurant_Billing_System\obj\Debug\Restaurant_Billing_System.Home.resources
